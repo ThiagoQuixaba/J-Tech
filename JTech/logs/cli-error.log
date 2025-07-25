@@ -1,0 +1,418 @@
+2025-07-24 17:08:35 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:14:51 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.com" to address: Unknown host in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.com" to address: Unknown host',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.com" to address: Unknown host in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:26:47 error: [Cake\Database\Exception\DatabaseException] Cannot describe categoria. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:28:52 error: [Cake\Database\Exception\DatabaseException] Cannot describe categoria. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:29:14 error: [Cake\Database\Exception\DatabaseException] Cannot describe categoria. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:29:32 error: [Cake\Database\Exception\DatabaseException] Cannot describe produtos. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:51:15 error: [Cake\Database\Exception\DatabaseException] Cannot describe all. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:51:21 error: [Cake\Database\Exception\DatabaseException] Cannot describe .. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:51:54 error: [Cake\Database\Exception\DatabaseException] Cannot describe fornecedores. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-24 17:52:01 error: [Cake\Database\Exception\DatabaseException] Cannot describe fornecedore. It has 0 columns. in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php on line 445
+Stack Trace:
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\ORM\Table.php:526
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- ROOT\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:120
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-25 00:22:45 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-25 00:22:51 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- ROOT\vendor\cakephp\bake\src\Utility\TableScanner.php:66
+- ROOT\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:87
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- ROOT\vendor\cakephp\bake\src\Utility\TableScanner.php:66
+- ROOT\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- ROOT\vendor\cakephp\bake\src\Command\AllCommand.php:87
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-25 00:37:04 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-25 00:37:17 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-25 00:40:42 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-07-25 18:48:34 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:72
+- CORE\src\Database\Schema\CachedCollection.php:74
+- CORE\src\Database\SchemaCache.php:61
+- CORE\src\Command\SchemacacheBuildCommand.php:69
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+

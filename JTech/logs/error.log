@@ -1,0 +1,164 @@
+2025-07-25 00:22:11 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\Database\Schema\CachedCollection.php:107
+- CORE\src\ORM\Table.php:526
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:202
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1748
+- CORE\src\ORM\Table.php:1279
+- APP/Controller\ProdutosController.php:20
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\Database\Schema\CachedCollection.php:107
+- CORE\src\ORM\Table.php:526
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:202
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1748
+- CORE\src\ORM\Table.php:1279
+- APP/Controller\ProdutosController.php:20
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos
+2025-07-25 00:22:30 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Postgres',
+  'reason' => 'SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\Database\Schema\CachedCollection.php:107
+- CORE\src\ORM\Table.php:526
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:202
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1748
+- CORE\src\ORM\Table.php:1279
+- APP/Controller\ProdutosController.php:20
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "db.nbuqyjiksljgirovyrfu.supabase.co" to address: Unknown server error in D:\J-Tech\JTech\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Postgres.php:118
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Postgres.php:152
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\Database\Schema\CachedCollection.php:107
+- CORE\src\ORM\Table.php:526
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:202
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1748
+- CORE\src\ORM\Table.php:1279
+- APP/Controller\ProdutosController.php:20
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos
