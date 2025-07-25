@@ -1,16 +1,16 @@
-# Usa uma imagem com Apache + PHP + extensões úteis
 FROM php:8.2-apache
 
-# Instala dependências para o CakePHP (pdo, pdo_mysql, intl, mbstring, etc)
+# Instala dependências para o CakePHP + PostgreSQL (Supabase)
 RUN apt-get update && apt-get install -y \
     libicu-dev \
     unzip \
     git \
     zip \
     libzip-dev \
-    && docker-php-ext-install intl pdo pdo_mysql mysqli zip
+    libpq-dev \
+    && docker-php-ext-install intl pdo pdo_pgsql zip
 
-# Habilita mod_rewrite (necessário para CakePHP funcionar com URLs amigáveis)
+# Habilita mod_rewrite
 RUN a2enmod rewrite
 
 # Define diretório de trabalho
