@@ -38,7 +38,19 @@ return [
      * See app.php for more configuration options.
      */
     
-    
+    'Datasources' => [
+        'default' => [
+            'className' => \Cake\Datasource\Connection::class,
+            'driver' => \Cake\Database\Driver\Postgres::class,
+            'host' => 'db.nbuqyjiksljgirovyrfu.supabase.co',
+            'port' => 5432,
+            'username' => 'postgres',
+            'password' => '1452@2541',
+            'database' => 'postgres',
+            'encoding' => 'utf8',
+            'timezone' => 'UTC',
+        ],
+    ],
 
     /*
      * Email configuration.
