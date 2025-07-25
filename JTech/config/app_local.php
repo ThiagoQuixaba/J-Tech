@@ -43,7 +43,7 @@ return [
             'className' => 'Cake\Database\Connection',
             'driver' => 'Cake\Database\Driver\Postgres',
             'persistent' => false,
-            'host' => '[2600:1f1e:75b:4b09:55b8:1355:dce1:1f08]',
+            'host' => 'hostaddr=2600:1f1e:75b:4b09:55b8:1355:dce1:1f08',
             'port' => '5432',
             'username' => 'SEU_USUARIO_SUPABASE',
             'password' => 'SUA_SENHA_SUPABASE',
