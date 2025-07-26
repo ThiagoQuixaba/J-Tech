@@ -8,7 +8,7 @@ namespace App\Controller;
  *
  * @property \App\Model\Table\CategoriaTable $Categoria
  */
-class CategoriaController extends AppController
+class CategoriasController extends AppController
 {
     /**
      * Index method
@@ -17,7 +17,7 @@ class CategoriaController extends AppController
      */
     public function index()
     {
-        $query = $this->Categoria->find();
+        $query = $this->Categorias->find();
         $categoria = $this->paginate($query);
 
         $this->set(compact('categoria'));
@@ -32,7 +32,7 @@ class CategoriaController extends AppController
      */
     public function view($id = null)
     {
-        $categorium = $this->Categoria->get($id, contain: []);
+        $categorium = $this->Categorias->get($id, contain: []);
         $this->set(compact('categorium'));
     }
 
@@ -65,7 +65,7 @@ class CategoriaController extends AppController
      */
     public function edit($id = null)
     {
-        $categorium = $this->Categoria->get($id, contain: []);
+        $categorium = $this->Categorias->get($id, contain: []);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $categorium = $this->Categoria->patchEntity($categorium, $this->request->getData());
             if ($this->Categoria->save($categorium)) {
@@ -88,8 +88,8 @@ class CategoriaController extends AppController
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
-        $categorium = $this->Categoria->get($id);
-        if ($this->Categoria->delete($categorium)) {
+        $categorium = $this->Categorias->get($id);
+        if ($this->Categorias->delete($categorium)) {
             $this->Flash->success(__('The categorium has been deleted.'));
         } else {
             $this->Flash->error(__('The categorium could not be deleted. Please, try again.'));

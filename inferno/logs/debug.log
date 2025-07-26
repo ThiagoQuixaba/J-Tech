@@ -894,3 +894,682 @@ Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
 
 Request URL: /produtos/add
 Referer URL: http://localhost:8765/produtos
+2025-07-26 14:36:44 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Proj_Julian\inferno\src\Controller\ProdutosController.php, line 66
+App\Controller\ProdutosController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 14:38:08 notice: Since 5.1.0: Calling `Cake\ORM\ResultSet` methods, such as `isEmpty()`, on PaginatedResultSet is deprecated. You must call `items()` first (for example, `items()->isEmpty()`).
+C:\Proj_Julian\inferno\templates\Produtos\index.php, line: 28
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `templates/Produtos/index.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Datasource\Paging\PaginatedResultSet.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Datasource\Paging\PaginatedResultSet.php, line 179
+Cake\Datasource\Paging\PaginatedResultSet->__call() C:\Proj_Julian\inferno\templates\Produtos\index.php, line 28
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos
+Referer URL: http://localhost:8765/
+2025-07-26 14:39:05 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Proj_Julian\inferno\src\Controller\ProdutosController.php, line 66
+App\Controller\ProdutosController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 14:39:45 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Proj_Julian\inferno\src\Controller\ProdutosController.php, line 66
+App\Controller\ProdutosController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 14:59:54 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 20 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 20
+App\Controller\CategoriasController->index() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias
+Referer URL: http://localhost:8765/
+2025-07-26 15:00:04 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 20 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 20
+App\Controller\CategoriasController->index() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias
+Referer URL: http://localhost:8765/
+2025-07-26 15:09:15 notice: Undefined property `CategoriasController::$categorias` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 68 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 68
+App\Controller\CategoriasController->edit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:21:24 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 20 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 20
+App\Controller\CategoriasController->index() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias
+Referer URL: http://localhost:8765/
+2025-07-26 15:22:16 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 35 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 35
+App\Controller\CategoriasController->view() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/view/Limpeza
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:22:20 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 68 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 68
+App\Controller\CategoriasController->edit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:22:24 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 35 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 35
+App\Controller\CategoriasController->view() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/view/Limpeza
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:22:56 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 68 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 68
+App\Controller\CategoriasController->edit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:26:44 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 20 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 20
+App\Controller\FornecedoresController->index() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-26 15:30:04 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 46 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 46
+App\Controller\FornecedoresController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/add
+Referer URL: http://localhost:8765/fornecedores
+2025-07-26 15:30:27 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 46 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 46
+App\Controller\FornecedoresController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/add
+Referer URL: http://localhost:8765/fornecedores
+2025-07-26 15:30:49 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 48 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 48
+App\Controller\FornecedoresController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/add
+Referer URL: http://localhost:8765/fornecedores/add
+2025-07-26 15:31:03 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 49 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 49
+App\Controller\FornecedoresController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/add
+Referer URL: http://localhost:8765/fornecedores/add
+2025-07-26 15:31:18 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 35 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 35
+App\Controller\FornecedoresController->view() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/view/22154544854545454
+Referer URL: http://localhost:8765/fornecedores
+2025-07-26 15:31:32 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 68 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 68
+App\Controller\FornecedoresController->edit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/edit/22154544854545454
+Referer URL: http://localhost:8765/fornecedores
+2025-07-26 15:31:55 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 91 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 91
+App\Controller\FornecedoresController->delete() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/delete/22154544854545454
+Referer URL: http://localhost:8765/fornecedores
+2025-07-26 15:32:07 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php` on line 92 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php, line 92
+App\Controller\FornecedoresController->delete() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/delete/22154544854545454
+Referer URL: http://localhost:8765/fornecedores
+2025-07-26 15:32:29 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 91 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 91
+App\Controller\CategoriasController->delete() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/delete/Limpeza
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:32:43 notice: Undefined property `CategoriasController::$Categoria` in `C:\Proj_Julian\inferno\src\Controller\CategoriasController.php` on line 92 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Proj_Julian\inferno\src\Controller\CategoriasController.php, line 92
+App\Controller\CategoriasController->delete() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/delete/Limpeza
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:33:36 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Proj_Julian\inferno\src\Controller\FluxoController.php, line 56
+App\Controller\FluxoController->add() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo

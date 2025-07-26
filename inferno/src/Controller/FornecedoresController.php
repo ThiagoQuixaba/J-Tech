@@ -6,9 +6,9 @@ namespace App\Controller;
 /**
  * Fornecedor Controller
  *
- * @property \App\Model\Table\FornecedorTable $Fornecedor
+ * @property \App\Model\Table\FornecedoresTable $Fornecedor
  */
-class FornecedorController extends AppController
+class FornecedoresController extends AppController
 {
     /**
      * Index method
@@ -17,7 +17,7 @@ class FornecedorController extends AppController
      */
     public function index()
     {
-        $query = $this->Fornecedor->find();
+        $query = $this->Fornecedores->find();
         $fornecedor = $this->paginate($query);
 
         $this->set(compact('fornecedor'));
@@ -32,7 +32,7 @@ class FornecedorController extends AppController
      */
     public function view($id = null)
     {
-        $fornecedor = $this->Fornecedor->get($id, contain: []);
+        $fornecedor = $this->Fornecedores->get($id, contain: []);
         $this->set(compact('fornecedor'));
     }
 
@@ -43,10 +43,10 @@ class FornecedorController extends AppController
      */
     public function add()
     {
-        $fornecedor = $this->Fornecedor->newEmptyEntity();
+        $fornecedor = $this->Fornecedores->newEmptyEntity();
         if ($this->request->is('post')) {
-            $fornecedor = $this->Fornecedor->patchEntity($fornecedor, $this->request->getData());
-            if ($this->Fornecedor->save($fornecedor)) {
+            $fornecedor = $this->Fornecedores->patchEntity($fornecedor, $this->request->getData());
+            if ($this->Fornecedores->save($fornecedor)) {
                 $this->Flash->success(__('The fornecedor has been saved.'));
 
                 return $this->redirect(['action' => 'index']);
@@ -65,7 +65,7 @@ class FornecedorController extends AppController
      */
     public function edit($id = null)
     {
-        $fornecedor = $this->Fornecedor->get($id, contain: []);
+        $fornecedor = $this->Fornecedores->get($id, contain: []);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $fornecedor = $this->Fornecedor->patchEntity($fornecedor, $this->request->getData());
             if ($this->Fornecedor->save($fornecedor)) {
@@ -88,8 +88,8 @@ class FornecedorController extends AppController
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
-        $fornecedor = $this->Fornecedor->get($id);
-        if ($this->Fornecedor->delete($fornecedor)) {
+        $fornecedor = $this->Fornecedores->get($id);
+        if ($this->Fornecedores->delete($fornecedor)) {
             $this->Flash->success(__('The fornecedor has been deleted.'));
         } else {
             $this->Flash->error(__('The fornecedor could not be deleted. Please, try again.'));

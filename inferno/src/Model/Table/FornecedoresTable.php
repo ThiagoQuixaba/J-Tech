@@ -25,7 +25,7 @@ use Cake\Validation\Validator;
  * @method iterable<\App\Model\Entity\Fornecedor>|\Cake\Datasource\ResultSetInterface<\App\Model\Entity\Fornecedor>|false deleteMany(iterable $entities, array $options = [])
  * @method iterable<\App\Model\Entity\Fornecedor>|\Cake\Datasource\ResultSetInterface<\App\Model\Entity\Fornecedor> deleteManyOrFail(iterable $entities, array $options = [])
  */
-class FornecedorTable extends Table
+class FornecedoresTable extends Table
 {
     /**
      * Initialize method

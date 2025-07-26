@@ -25,7 +25,7 @@ use Cake\Validation\Validator;
  * @method iterable<\App\Model\Entity\Categorium>|\Cake\Datasource\ResultSetInterface<\App\Model\Entity\Categorium>|false deleteMany(iterable $entities, array $options = [])
  * @method iterable<\App\Model\Entity\Categorium>|\Cake\Datasource\ResultSetInterface<\App\Model\Entity\Categorium> deleteManyOrFail(iterable $entities, array $options = [])
  */
-class CategoriaTable extends Table
+class CategoriasTable extends Table
 {
     /**
      * Initialize method

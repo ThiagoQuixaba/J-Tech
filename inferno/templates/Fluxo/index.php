@@ -5,7 +5,7 @@
  */
 ?>
 <div class="fluxo index content">
-    <?= $this->Html->link(__('New Fluxo'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <?= $this->Html->link(__('Novo Fluxo'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Fluxo') ?></h3>
     <div class="table-responsive">
         <table>
