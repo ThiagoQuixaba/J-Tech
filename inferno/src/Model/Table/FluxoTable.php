@@ -43,8 +43,8 @@ class FluxoTable extends Table
 
         $this->belongsTo('Produtos', [
             'foreignKey' => 'lote',
-            'bindingKey' => 'lote',
-            'joinType' => 'INNER',
+            'bindingKey' => 'lote', // se quiser relacionar por campo não-primary
+            'joinType' => 'LEFT', // ou 'INNER' se for obrigatório
         ]);
 
     }

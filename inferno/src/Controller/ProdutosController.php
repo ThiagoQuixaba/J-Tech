@@ -48,11 +48,13 @@ class ProdutosController extends AppController
         $produto = $this->Produtos->newEmptyEntity();
 
         if ($this->request->is('post')) {
-            $produto = $this->Produtos->patchEntity($produto, $this->request->getData());
+            $data = $this->request->getData();
+            $produto = $this->Produtos->patchEntity($produto, $data, ['validate' => 'add']);
+
             if ($this->Produtos->save($produto)) {
                 $fluxo = $fluxosTable->newEmptyEntity();
 
-                $fluxo->lote = $produto->lote; 
+                $fluxo->lote = '<ID: ' . $produto->lote . '>'; 
                 $fluxo->tipo = 'Entrada';
                 $fluxo->data = date('Y-m-d'); 
 
@@ -82,7 +84,26 @@ class ProdutosController extends AppController
     {
         $produto = $this->Produtos->get($id, contain: []);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $produto = $this->Produtos->patchEntity($produto, $this->request->getData());
+            $data = $this->request->getData();
+
+            if (isset($data['quantidade']) && (int)$data['quantidade'] === 0) {
+                $fluxosTable = TableRegistry::getTableLocator()->get('Fluxo');
+
+                $fluxo = $fluxosTable->newEmptyEntity();
+                $fluxo->lote = '<ID: ' . $produto->lote . '>';
+                $fluxo->tipo = 'Saida';
+                $fluxo->data = date('Y-m-d');
+                $fluxosTable->save($fluxo);
+
+                $this->Produtos->delete($produto);
+
+                $this->Flash->success(__('Produto com quantidade 0 foi removido.'));
+
+                return $this->redirect(['action' => 'index']);
+            }
+
+            $produto = $this->Produtos->patchEntity($produto, $data);
+
             if ($this->Produtos->save($produto)) {
                 $this->Flash->success(__('The produto has been saved.'));
 
@@ -92,7 +113,6 @@ class ProdutosController extends AppController
         }
         
         $categorias = $this->Produtos->Categorias->find('list', ['keyField' => 'nome', 'valueField' => 'nome'])->toArray();
-
         $fornecedores = $this->Produtos->Fornecedores->find('list', ['keyField' => 'cnpj', 'valueField' => 'cnpj'])->toArray();
 
         $this->set(compact('produto', 'categorias', 'fornecedores'));
@@ -109,12 +129,23 @@ class ProdutosController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $produto = $this->Produtos->get($id);
+
+        $fluxosTable = TableRegistry::getTableLocator()->get('Fluxo');
+        $fluxo = $fluxosTable->newEmptyEntity();
+
+        $fluxo->lote = '<ID: ' . $produto->lote . '>'; 
+        $fluxo->tipo = 'Saida';
+        $fluxo->data = date('Y-m-d'); 
+
+        $fluxosTable->save($fluxo);
+
         if ($this->Produtos->delete($produto)) {
-            $this->Flash->success(__('The produto has been deleted.'));
+            $this->Flash->success(__('Produto deletado com sucesso.'));
         } else {
-            $this->Flash->error(__('The produto could not be deleted. Please, try again.'));
+            $this->Flash->error(__('Erro ao deletar o produto.'));
         }
 
         return $this->redirect(['action' => 'index']);
     }
+
 }

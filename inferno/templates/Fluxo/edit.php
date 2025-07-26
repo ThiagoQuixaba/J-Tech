@@ -22,7 +22,7 @@
             <fieldset>
                 <legend><?= __('Edit Fluxo') ?></legend>
                 <?php
-                    echo $this->Form->control('lote', ['options' => $lote, 'empty' => 'Selecione uma categoria']);
+                    echo $this->Form->control('lote', ['type' => 'text']);
                     echo $this->Form->control('tipo', ['options' => ['Entrada' => 'Entrada', 'Saida' => 'Saida'], 'empty' => 'Selecione uma categoria']);
                     echo $this->Form->control('data', ['empty' => true]);
                 ?>

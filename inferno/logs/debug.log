@@ -1918,3 +1918,795 @@ Cake\Http\Server->run() C:\Proj_Julian\inferno\webroot\index.php, line 37
 
 Request URL: /fluxo/add
 Referer URL: http://localhost:8765/fluxo
+2025-07-26 17:26:08 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 94
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/6
+Referer URL: http://localhost:8765/produtos
+2025-07-26 17:47:31 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\FluxoController.php, line 56
+App\Controller\FluxoController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 17:48:45 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\FluxoController.php, line 56
+App\Controller\FluxoController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 18:13:40 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 66
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:19:51 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 66
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:30:30 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 66
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:31:04 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 104
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:32:02 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 106
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:36:34 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 107
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:41:41 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 107
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:43:36 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 116
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:46:00 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 116
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:46:09 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 116
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:47:05 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 119
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:49:17 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 119
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:52:03 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 119
+App\Controller\ProdutosController->edit() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/9
+Referer URL: http://localhost:8765/produtos
+2025-07-26 18:59:46 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 85
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 19:00:03 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 85
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 19:05:06 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 85
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 19:05:48 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 85
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 19:11:15 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 85
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 19:13:12 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 19:13:25 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 19:13:33 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() D:\J-Tech\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add

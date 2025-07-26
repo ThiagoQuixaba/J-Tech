@@ -22,7 +22,7 @@
                 <?php foreach ($fluxo as $fluxo): ?>
                 <tr>
                     <td><?= $this->Number->format($fluxo->id) ?></td>
-                    <td><?= $this->Number->format($fluxo->lote) ?></td>
+                    <td><?= h($fluxo->lote) ?></td>
                     <td><?= h($fluxo->tipo) ?></td>
                     <td><?= h($fluxo->data) ?></td>
                     <td class="actions">

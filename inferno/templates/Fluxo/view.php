@@ -28,7 +28,7 @@
                 </tr>
                 <tr>
                     <th><?= __('Lote') ?></th>
-                    <td><?= $this->Number->format($fluxo->lote) ?></td>
+                    <td><?= h($fluxo->lote) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Data') ?></th>

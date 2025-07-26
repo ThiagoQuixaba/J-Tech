@@ -29,4 +29,9 @@ class Fluxo extends Entity
         'tipo' => true,
         'data' => true,
     ];
+
+    protected function _setLote($value)
+    {
+        return (string)$value;
+    }
 }

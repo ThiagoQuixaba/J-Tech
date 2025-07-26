@@ -52,6 +52,12 @@ class ProdutosTable extends Table
             'propertyName' => 'fornecedor_id',
             'joinType' => 'INNER',
         ]);
+
+        $this->hasMany('Fluxo', [
+            'foreignKey' => 'lote', 
+            'bindingKey' => 'lote', 
+        ]);
+
     }
 
     /**
@@ -83,12 +89,16 @@ class ProdutosTable extends Table
             ->allowEmptyString('descricao');
 
         $validator
-            ->allowEmptyString('quantidade');
+            ->integer('quantidade')
+            ->greaterThan('quantidade', 0, 'A quantidade deve ser maior que zero.')
+            ->requirePresence('quantidade', 'create')
+            ->notEmptyString('quantidade', 'A quantidade é obrigatória.');
 
         $validator
             ->numeric('valor')
+            ->greaterThan('valor', 0, 'O valor deve ser maior que zero.')
             ->requirePresence('valor', 'create')
-            ->notEmptyString('valor');
+            ->notEmptyString('valor', 'O valor é obrigatório.');
 
         $validator
             ->date('fabricacao')
@@ -99,6 +109,17 @@ class ProdutosTable extends Table
             ->date('validade')
             ->requirePresence('validade', 'create')
             ->notEmptyDate('validade');
+
+        return $validator;
+    }
+
+    public function validationAdd(Validator $validator): Validator
+    {
+        $validator
+            ->integer('quantidade')
+            ->greaterThanOrEqual('quantidade', 1, 'A quantidade deve ser 1 ou maior.')
+            ->requirePresence('quantidade', 'create')
+            ->notEmptyString('quantidade');
 
         return $validator;
     }
