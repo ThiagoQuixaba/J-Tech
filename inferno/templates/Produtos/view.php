@@ -9,15 +9,20 @@
         <div class="side-nav">
             <h4 class="heading"><?= __('Actions') ?></h4>
             <?= $this->Html->link(__('Edit Produto'), ['action' => 'edit', $produto->lote], ['class' => 'side-nav-item']) ?>
-            <?= $this->Form->postLink(__('Delete Produto'), ['action' => 'delete', $produto->lote], ['confirm' => __('Are you sure you want to delete # {0}?', $produto->lote), 'class' => 'side-nav-item']) ?>
+            <?= $this->Form->postLink(
+                __('Delete Produto'),
+                ['action' => 'delete', $produto->lote],
+                ['confirm' => __('Are you sure you want to delete # {0}?', $produto->lote), 'class' => 'side-nav-item']
+            ) ?>
             <?= $this->Html->link(__('List Produtos'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
             <?= $this->Html->link(__('New Produto'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
+
     <div class="column column-80">
         <div class="produtos view content">
             <h3><?= h($produto->nome) ?></h3>
-            <table>
+            <table class="table table-striped table-bordered">
                 <tr>
                     <th><?= __('Categoria') ?></th>
                     <td><?= h($produto->categoria) ?></td>
@@ -43,7 +48,7 @@
                     <td><?= $this->Number->format($produto->valor) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Fabricacao') ?></th>
+                    <th><?= __('Fabricação') ?></th>
                     <td><?= h($produto->fabricacao) ?></td>
                 </tr>
                 <tr>
@@ -51,8 +56,9 @@
                     <td><?= h($produto->validade) ?></td>
                 </tr>
             </table>
+
             <div class="text">
-                <strong><?= __('Descricao') ?></strong>
+                <strong><?= __('Descrição') ?></strong>
                 <blockquote>
                     <?= $this->Text->autoParagraph(h($produto->descricao)); ?>
                 </blockquote>
