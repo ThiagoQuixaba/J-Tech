@@ -42,10 +42,11 @@ class FluxoTable extends Table
         $this->setPrimaryKey('id');
 
         $this->belongsTo('Produtos', [
-            'foreignKey' => 'produtos',
-            'propertyName' => 'produtos_id',
+            'foreignKey' => 'lote',
+            'bindingKey' => 'lote',
             'joinType' => 'INNER',
         ]);
+
     }
 
     /**

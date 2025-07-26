@@ -1228,3 +1228,77 @@ Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
 
 Request URL: /produtos/edit/5
 Referer URL: http://localhost:8765/produtos
+2025-07-26 09:53:34 error: [Cake\Database\Exception\QueryException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`inferno`.`fluxo`, CONSTRAINT `Fluxo_lote_fkey` FOREIGN KEY (`lote`) REFERENCES `produtos` (`lote`))
+Query: DELETE FROM produtos WHERE lote = 4 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:224
+- CORE\src\ORM\Table.php:2600
+- CORE\src\ORM\Table.php:2436
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:2435
+- APP/Controller\ProdutosController.php:105
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`inferno`.`fluxo`, CONSTRAINT `Fluxo_lote_fkey` FOREIGN KEY (`lote`) REFERENCES `produtos` (`lote`)) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 144
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:144
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:224
+- CORE\src\ORM\Table.php:2600
+- CORE\src\ORM\Table.php:2436
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:2435
+- APP/Controller\ProdutosController.php:105
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/delete/4
+Referer URL: http://localhost:8765/produtos

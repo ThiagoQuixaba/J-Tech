@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 namespace App\Controller;
+use Cake\ORM\TableRegistry;
 
 /**
  * Produtos Controller
@@ -43,11 +44,19 @@ class ProdutosController extends AppController
      */
     public function add()
     {
+        $fluxosTable = TableRegistry::getTableLocator()->get('Fluxo');
         $produto = $this->Produtos->newEmptyEntity();
 
         if ($this->request->is('post')) {
             $produto = $this->Produtos->patchEntity($produto, $this->request->getData());
             if ($this->Produtos->save($produto)) {
+                $fluxo = $fluxosTable->newEmptyEntity();
+
+                $fluxo->lote = $produto->lote; 
+                $fluxo->tipo = 'Entrada';
+                $fluxo->data = date('Y-m-d'); 
+
+                $fluxosTable->save($fluxo);
                 $this->Flash->success(__('Produto salvo com sucesso.'));
                 return $this->redirect(['action' => 'index']);
             }
