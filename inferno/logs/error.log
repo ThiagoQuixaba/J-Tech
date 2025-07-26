@@ -1,0 +1,1230 @@
+2025-07-26 01:22:00 error: [Cake\Controller\Exception\MissingComponentException] Component class `AuthenticationComponent` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php on line 130
+Exception Attributes: array (
+  'class' => 'AuthenticationComponent',
+  'plugin' => 'Authentication',
+)
+Stack Trace:
+- CORE\src\Core\ObjectRegistry.php:111
+- CORE\src\Controller\Controller.php:284
+- APP/Controller\AppController.php:44
+- CORE\src\Controller\Controller.php:238
+- [internal]:??
+- CORE\src\Controller\ControllerFactory.php:111
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2025-07-26 01:28:00 error: [Exception] The request object does not contain the required `authentication` attribute. Verify the AuthenticationMiddleware has been added. in D:\J-Tech\inferno\vendor\cakephp\authentication\src\Controller\Component\AuthenticationComponent.php on line 151
+Stack Trace:
+- ROOT\vendor\cakephp\authentication\src\Controller\Component\AuthenticationComponent.php:102
+- CORE\src\Event\EventManager.php:330
+- CORE\src\Event\EventManager.php:314
+- CORE\src\Event\EventDispatcherTrait.php:88
+- CORE\src\Controller\Controller.php:604
+- CORE\src\Controller\ControllerFactory.php:156
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /
+2025-07-26 01:30:13 error: [Error] Class "App\AuthenticationMiddleware" not found in D:\J-Tech\inferno\src\Application.php on line 67
+Stack Trace:
+- CORE\src\Http\Server.php:97
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-07-26 01:31:57 error: [Error] Class "App\AuthenticationMiddleware" not found in D:\J-Tech\inferno\src\Application.php on line 93
+Stack Trace:
+- CORE\src\Http\Server.php:97
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-07-26 01:33:21 error: [TypeError] Authentication\Middleware\AuthenticationMiddleware::__construct(): Argument #1 ($subject) must be of type Authentication\AuthenticationServiceInterface|Authentication\AuthenticationServiceProviderInterface, App\Application given, called in D:\J-Tech\inferno\src\Application.php on line 94 in D:\J-Tech\inferno\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php on line 60
+Stack Trace:
+- APP/Application.php:94
+- CORE\src\Http\Server.php:97
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-07-26 01:37:42 error: [Error] Class "App\TableLocator" not found in D:\J-Tech\inferno\src\Application.php on line 43
+Stack Trace:
+- CORE\src\Http\Server.php:123
+- CORE\src\Http\Server.php:85
+- ROOT\webroot\index.php:37
+- [main]:
+
+2025-07-26 01:40:13 error: [Cake\Http\Exception\MissingControllerException] Controller class `Users` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:106
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /users/login?redirect=%2F
+2025-07-26 01:48:32 error: [Cake\Http\Exception\MissingControllerException] Controller class `Users` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /users/login?redirect=%2F
+2025-07-26 01:51:28 error: [Cake\Http\Exception\MissingControllerException] Controller class `Users` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /users/login?redirect=%2F
+2025-07-26 01:54:28 error: [Cake\Http\Exception\MissingControllerException] Controller class `Users` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /users/login?redirect=%2F
+2025-07-26 01:54:31 error: [Cake\Http\Exception\MissingControllerException] Controller class `Users` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /users/login?redirect=%2F
+2025-07-26 01:57:51 error: [Cake\Routing\Exception\MissingRouteException] A route matching `/users/login` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 188
+Exception Attributes: array (
+  'url' => '/users/login',
+)
+Stack Trace:
+- CORE\src\Routing\Router.php:197
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:96
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /users/login?redirect=%2F
+2025-07-26 01:59:17 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table `categoria` with primary key `[NULL]`. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 1514
+Stack Trace:
+- APP/Controller\CategoriaController.php:35
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categoria/view
+Referer URL: http://localhost:8765/categoria
+2025-07-26 01:59:25 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table `categoria` with primary key `[NULL]`. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 1514
+Stack Trace:
+- APP/Controller\CategoriaController.php:91
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categoria/delete
+Referer URL: http://localhost:8765/categoria
+2025-07-26 02:04:39 error: [Cake\Http\Exception\MissingControllerException] Controller class `Catgoria` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Catgoria',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /catgoria/add
+2025-07-26 02:24:54 error: [Cake\Http\Exception\MissingControllerException] Controller class `Categorias` could not be found. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Categorias',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:77
+- CORE\src\Http\BaseApplication.php:360
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias
+2025-07-26 02:26:37 error: [Cake\Database\Exception\QueryException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`inferno`.`produtos`, CONSTRAINT `Produtos_fornecedor_fkey` FOREIGN KEY (`fornecedor`) REFERENCES `fornecedor` (`cnpj`))
+Query: INSERT INTO produtos (categoria, fornecedor, nome, descricao, quantidade, valor, fabricacao, validade) VALUES ('Carne de Vaca', 'Thiago Quixaba Campos de Macedo', 'Carne de vaca', 'Carne de vaca.', 100, 20, '2025-07-25', '2025-07-25') in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:224
+- CORE\src\ORM\Table.php:2175
+- CORE\src\ORM\Table.php:2068
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\ProdutosController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`inferno`.`produtos`, CONSTRAINT `Produtos_fornecedor_fkey` FOREIGN KEY (`fornecedor`) REFERENCES `fornecedor` (`cnpj`)) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 144
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:144
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:224
+- CORE\src\ORM\Table.php:2175
+- CORE\src\ORM\Table.php:2068
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\ProdutosController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:30:25 error: [Cake\Database\Exception\DatabaseException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProdutosTable`. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 2846
+Stack Trace:
+- APP/Controller\ProdutosController.php:58
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 02:30:32 error: [Cake\Database\Exception\DatabaseException] Undefined property `Categoria`. You have not defined the `Categoria` association on `App\Model\Table\ProdutosTable`. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 2846
+Stack Trace:
+- APP/Controller\ProdutosController.php:58
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 02:34:15 warning: Association property name `fornecedor` clashes with field of same name of table `produtos`. You should explicitly specify the `propertyName` option. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php on line 573
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 573
+Cake\ORM\Association->getProperty() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 137
+Cake\ORM\Marshaller->_buildPropertyMap() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 589
+Cake\ORM\Marshaller->merge() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 3056
+Cake\ORM\Table->patchEntity() D:\J-Tech\inferno\src\Controller\ProdutosController.php, line 49
+App\Controller\ProdutosController->add() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:34:15 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE\src\Error\Renderer\HtmlErrorRenderer.php` on line `37` in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Session.php on line 521
+Stack Trace:
+- CORE\src\Http\FlashMessage.php:123
+- CORE\src\Controller\Component\FlashComponent.php:76
+- CORE\src\Controller\Component\FlashComponent.php:188
+- APP/Controller\ProdutosController.php:51
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:34:16 warning: Unable to emit headers. Headers sent in file=D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:34:16 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:34:16 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:34:16 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:38:59 warning: Association property name `fornecedor` clashes with field of same name of table `produtos`. You should explicitly specify the `propertyName` option. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php on line 573
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 573
+Cake\ORM\Association->getProperty() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 137
+Cake\ORM\Marshaller->_buildPropertyMap() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 589
+Cake\ORM\Marshaller->merge() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 3056
+Cake\ORM\Table->patchEntity() D:\J-Tech\inferno\src\Controller\ProdutosController.php, line 49
+App\Controller\ProdutosController->add() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:38:59 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE\src\Error\Renderer\HtmlErrorRenderer.php` on line `37` in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Session.php on line 521
+Stack Trace:
+- CORE\src\Http\FlashMessage.php:123
+- CORE\src\Controller\Component\FlashComponent.php:76
+- CORE\src\Controller\Component\FlashComponent.php:188
+- APP/Controller\ProdutosController.php:51
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:38:59 warning: Unable to emit headers. Headers sent in file=D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:38:59 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:38:59 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:38:59 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:39:26 warning: Association property name `fornecedor` clashes with field of same name of table `produtos`. You should explicitly specify the `propertyName` option. in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php on line 573
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 573
+Cake\ORM\Association->getProperty() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 137
+Cake\ORM\Marshaller->_buildPropertyMap() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Marshaller.php, line 589
+Cake\ORM\Marshaller->merge() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 3056
+Cake\ORM\Table->patchEntity() D:\J-Tech\inferno\src\Controller\ProdutosController.php, line 49
+App\Controller\ProdutosController->add() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:39:26 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE\src\Error\Renderer\HtmlErrorRenderer.php` on line `37` in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Session.php on line 521
+Stack Trace:
+- CORE\src\Http\FlashMessage.php:123
+- CORE\src\Controller\Component\FlashComponent.php:76
+- CORE\src\Controller\Component\FlashComponent.php:188
+- APP/Controller\ProdutosController.php:51
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:39:27 warning: Unable to emit headers. Headers sent in file=D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:39:27 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:39:27 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:39:27 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-26 02:47:46 warning: Attempt to read property "Fornecedor" on null in D:\J-Tech\inferno\src\Controller\FluxoController.php on line 56
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\src\Controller\FluxoController.php, line 56
+App\Controller\FluxoController->add() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:47:46 error: [Error] Call to a member function find() on null in D:\J-Tech\inferno\src\Controller\FluxoController.php on line 56
+Stack Trace:
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:47:46 warning: Unable to emit headers. Headers sent in file=D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:47:46 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:47:46 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:47:46 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:49:17 warning: Attempt to read property "Produtos" on null in D:\J-Tech\inferno\src\Controller\FluxoController.php on line 56
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\src\Controller\FluxoController.php, line 56
+App\Controller\FluxoController->add() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:49:17 error: [Error] Call to a member function find() on null in D:\J-Tech\inferno\src\Controller\FluxoController.php on line 56
+Stack Trace:
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:49:17 warning: Unable to emit headers. Headers sent in file=D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:49:17 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:49:17 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:49:17 warning: Cannot modify header information - headers already sent by (output started at D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:52:21 warning: Undefined variable $categorias in D:\J-Tech\inferno\templates\Fluxo\add.php on line 20
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\templates\Fluxo\add.php, line 20
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:55:33 error: [TypeError] Cake\View\Helper\FormHelper::select(): Argument #2 ($options) must be of type Traversable|array, string given, called in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 1265 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 2167
+Stack Trace:
+- CORE\src\View\Helper\FormHelper.php:1265
+- CORE\src\View\Helper\FormHelper.php:1168
+- ROOT\templates\Fluxo\add.php:21
+- CORE\src\View\View.php:1187
+- CORE\src\View\View.php:1144
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:712
+- CORE\src\Controller\Controller.php:516
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fluxo/add
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:56:54 warning: Undefined variable $categorias in D:\J-Tech\inferno\templates\Fluxo\edit.php on line 25
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\templates\Fluxo\edit.php, line 25
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/edit/5
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:56:54 error: [TypeError] Cake\View\Helper\FormHelper::select(): Argument #2 ($options) must be of type Traversable|array, string given, called in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 1265 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 2167
+Stack Trace:
+- CORE\src\View\Helper\FormHelper.php:1265
+- CORE\src\View\Helper\FormHelper.php:1168
+- ROOT\templates\Fluxo\edit.php:25
+- CORE\src\View\View.php:1187
+- CORE\src\View\View.php:1144
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:712
+- CORE\src\Controller\Controller.php:516
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fluxo/edit/5
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:59:55 warning: Undefined variable $categorias in D:\J-Tech\inferno\templates\Fluxo\edit.php on line 25
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\templates\Fluxo\edit.php, line 25
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/edit/5
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 02:59:55 error: [TypeError] Cake\View\Helper\FormHelper::select(): Argument #2 ($options) must be of type Traversable|array, string given, called in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 1265 in D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php on line 2167
+Stack Trace:
+- CORE\src\View\Helper\FormHelper.php:1265
+- CORE\src\View\Helper\FormHelper.php:1168
+- ROOT\templates\Fluxo\edit.php:25
+- CORE\src\View\View.php:1187
+- CORE\src\View\View.php:1144
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:712
+- CORE\src\Controller\Controller.php:516
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fluxo/edit/5
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 03:00:18 warning: Undefined variable $lote in D:\J-Tech\inferno\templates\Fluxo\edit.php on line 25
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\templates\Fluxo\edit.php, line 25
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fluxo/edit/5
+Referer URL: http://localhost:8765/fluxo
+2025-07-26 03:02:25 warning: Undefined variable $categorias in D:\J-Tech\inferno\templates\Produtos\edit.php on line 25
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\templates\Produtos\edit.php, line 25
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/5
+Referer URL: http://localhost:8765/produtos
+2025-07-26 03:02:25 warning: Undefined variable $fornecedores in D:\J-Tech\inferno\templates\Produtos\edit.php on line 26
+Trace:
+Cake\Error\ErrorTrap->handleError() D:\J-Tech\inferno\templates\Produtos\edit.php, line 26
+D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() D:\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() D:\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/5
+Referer URL: http://localhost:8765/produtos
