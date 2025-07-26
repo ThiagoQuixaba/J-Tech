@@ -43,10 +43,10 @@ class CategoriasController extends AppController
      */
     public function add()
     {
-        $categorium = $this->Categoria->newEmptyEntity();
+        $categorium = $this->Categorias->newEmptyEntity();
         if ($this->request->is('post')) {
-            $categorium = $this->Categoria->patchEntity($categorium, $this->request->getData());
-            if ($this->Categoria->save($categorium)) {
+            $categorium = $this->Categorias->patchEntity($categorium, $this->request->getData());
+            if ($this->Categorias->save($categorium)) {
                 $this->Flash->success(__('The categorium has been saved.'));
 
                 return $this->redirect(['action' => 'index']);
@@ -67,8 +67,8 @@ class CategoriasController extends AppController
     {
         $categorium = $this->Categorias->get($id, contain: []);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $categorium = $this->Categoria->patchEntity($categorium, $this->request->getData());
-            if ($this->Categoria->save($categorium)) {
+            $categorium = $this->Categorias->patchEntity($categorium, $this->request->getData());
+            if ($this->Categorias->save($categorium)) {
                 $this->Flash->success(__('The categorium has been saved.'));
 
                 return $this->redirect(['action' => 'index']);

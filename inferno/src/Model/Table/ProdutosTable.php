@@ -41,13 +41,13 @@ class ProdutosTable extends Table
         $this->setDisplayField('nome');
         $this->setPrimaryKey('lote');
 
-        $this->belongsTo('Categoria', [
+        $this->belongsTo('Categorias', [
             'foreignKey' => 'categoria',
             'propertyName' => 'categoria_id',
             'joinType' => 'INNER',
         ]);
 
-        $this->belongsTo('Fornecedor', [
+        $this->belongsTo('Fornecedores', [
             'foreignKey' => 'fornecedor',
             'propertyName' => 'fornecedor_id',
             'joinType' => 'INNER',

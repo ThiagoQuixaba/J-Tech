@@ -3917,3 +3917,385 @@ Stack Trace:
 
 Request URL: /debug-kit/toolbar/8db6e13f-8d3c-4ef2-852c-8c7e100e3337
 Referer URL: http://localhost:8765/
+2025-07-26 15:34:47 error: [Error] Call to a member function newEmptyEntity() on null in C:\Proj_Julian\inferno\src\Controller\CategoriasController.php on line 46
+Stack Trace:
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:34:47 warning: Unable to emit headers. Headers sent in file=C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:34:47 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:34:47 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:34:47 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias
+2025-07-26 15:35:39 error: [Error] Call to a member function patchEntity() on null in C:\Proj_Julian\inferno\src\Controller\CategoriasController.php on line 70
+Stack Trace:
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias/edit/Limpeza
+2025-07-26 15:35:39 warning: Unable to emit headers. Headers sent in file=C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias/edit/Limpeza
+2025-07-26 15:35:39 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias/edit/Limpeza
+2025-07-26 15:35:39 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias/edit/Limpeza
+2025-07-26 15:35:39 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /categorias/edit/Limpeza
+Referer URL: http://localhost:8765/categorias/edit/Limpeza
+2025-07-26 15:38:12 error: [Error] Call to a member function patchEntity() on null in C:\Proj_Julian\inferno\src\Controller\FornecedoresController.php on line 70
+Stack Trace:
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/edit/22154544854545454
+Referer URL: http://localhost:8765/fornecedores/edit/22154544854545454
+2025-07-26 15:38:12 warning: Unable to emit headers. Headers sent in file=C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/edit/22154544854545454
+Referer URL: http://localhost:8765/fornecedores/edit/22154544854545454
+2025-07-26 15:38:12 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/edit/22154544854545454
+Referer URL: http://localhost:8765/fornecedores/edit/22154544854545454
+2025-07-26 15:38:12 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/edit/22154544854545454
+Referer URL: http://localhost:8765/fornecedores/edit/22154544854545454
+2025-07-26 15:38:12 warning: Cannot modify header information - headers already sent by (output started at C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Proj_Julian\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/edit/22154544854545454
+Referer URL: http://localhost:8765/fornecedores/edit/22154544854545454
+2025-07-26 15:40:30 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Categoria` could not be found. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 249
+Exception Attributes: array (
+  0 => 'for alias `Categoria`',
+)
+Stack Trace:
+- CORE\src\Datasource\Locator\AbstractLocator.php:68
+- CORE\src\ORM\Locator\TableLocator.php:211
+- CORE\src\ORM\Association.php:373
+- CORE\src\ORM\Association.php:846
+- APP/Controller\ProdutosController.php:66
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 15:42:41 error: [Cake\Database\Exception\DatabaseException] Undefined property `Categorias`. You have not defined the `Categorias` association on `App\Model\Table\ProdutosTable`. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 2846
+Stack Trace:
+- APP/Controller\ProdutosController.php:66
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 15:43:08 error: [Cake\Database\Exception\DatabaseException] Undefined property `Categorias`. You have not defined the `Categorias` association on `App\Model\Table\ProdutosTable`. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 2846
+Stack Trace:
+- APP/Controller\ProdutosController.php:66
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 15:43:28 error: [Cake\Database\Exception\DatabaseException] Undefined property `Categorias`. You have not defined the `Categorias` association on `App\Model\Table\ProdutosTable`. in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 2846
+Stack Trace:
+- APP/Controller\ProdutosController.php:66
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-26 15:46:19 error: [Cake\Database\Exception\QueryException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`inferno`.`fluxo`, CONSTRAINT `Fluxo_lote_fkey` FOREIGN KEY (`lote`) REFERENCES `produtos` (`lote`))
+Query: DELETE FROM produtos WHERE lote = 1 in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:359
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:224
+- CORE\src\ORM\Table.php:2600
+- CORE\src\ORM\Table.php:2436
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:2435
+- APP/Controller\ProdutosController.php:112
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`inferno`.`fluxo`, CONSTRAINT `Fluxo_lote_fkey` FOREIGN KEY (`lote`) REFERENCES `produtos` (`lote`)) in C:\Proj_Julian\inferno\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 144
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:144
+- CORE\src\Database\Driver.php:341
+- CORE\src\Database\Driver\Mysql.php:183
+- CORE\src\Database\Connection.php:280
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:280
+- CORE\src\Database\Query.php:224
+- CORE\src\ORM\Table.php:2600
+- CORE\src\ORM\Table.php:2436
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:2435
+- APP/Controller\ProdutosController.php:112
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos/delete/1
+Referer URL: http://localhost:8765/produtos

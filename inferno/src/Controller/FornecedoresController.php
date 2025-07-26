@@ -67,8 +67,8 @@ class FornecedoresController extends AppController
     {
         $fornecedor = $this->Fornecedores->get($id, contain: []);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $fornecedor = $this->Fornecedor->patchEntity($fornecedor, $this->request->getData());
-            if ($this->Fornecedor->save($fornecedor)) {
+            $fornecedor = $this->Fornecedores->patchEntity($fornecedor, $this->request->getData());
+            if ($this->Fornecedores->save($fornecedor)) {
                 $this->Flash->success(__('The fornecedor has been saved.'));
 
                 return $this->redirect(['action' => 'index']);

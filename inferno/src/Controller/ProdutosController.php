@@ -63,9 +63,9 @@ class ProdutosController extends AppController
             $this->Flash->error(__('Erro ao salvar o produto.'));
         }
 
-        $categorias = $this->Produtos->Categoria->find('list', ['keyField' => 'nome', 'valueField' => 'nome'])->toArray();
+        $categorias = $this->Produtos->Categorias->find('list', ['keyField' => 'nome', 'valueField' => 'nome'])->toArray();
 
-        $fornecedores = $this->Produtos->Fornecedor->find('list', ['keyField' => 'cnpj', 'valueField' => 'cnpj'])->toArray();
+        $fornecedores = $this->Produtos->Fornecedores->find('list', ['keyField' => 'cnpj', 'valueField' => 'cnpj'])->toArray();
 
         $this->set(compact('produto', 'categorias', 'fornecedores'));
     }
@@ -91,9 +91,9 @@ class ProdutosController extends AppController
             $this->Flash->error(__('The produto could not be saved. Please, try again.'));
         }
         
-        $categorias = $this->Produtos->Categoria->find('list', ['keyField' => 'nome', 'valueField' => 'nome'])->toArray();
+        $categorias = $this->Produtos->Categorias->find('list', ['keyField' => 'nome', 'valueField' => 'nome'])->toArray();
 
-        $fornecedores = $this->Produtos->Fornecedor->find('list', ['keyField' => 'cnpj', 'valueField' => 'cnpj'])->toArray();
+        $fornecedores = $this->Produtos->Fornecedores->find('list', ['keyField' => 'cnpj', 'valueField' => 'cnpj'])->toArray();
 
         $this->set(compact('produto', 'categorias', 'fornecedores'));
     }
