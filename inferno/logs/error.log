@@ -5907,3 +5907,28 @@ Stack Trace:
 
 Request URL: /fornecedores/edit/teste
 Referer URL: http://localhost:8765/fornecedores
+2025-07-27 21:17:46 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table `fornecedor` with primary key `[NULL]`. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php on line 1514
+Stack Trace:
+- APP/Controller\FornecedoresController.php:68
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/edit
+Referer URL: http://localhost:8765/fornecedores/add

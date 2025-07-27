@@ -28,7 +28,6 @@
             </tbody>
         </table>
     </div>
-        <!-- ✅ Botão Voltar para Home amarelo -->
     <div style="margin-top: 15px;">
         <?= $this->Html->link(
             '🏠 Voltar para Home',
