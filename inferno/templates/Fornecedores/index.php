@@ -26,14 +26,7 @@
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $fornecedor->cnpj]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $fornecedor->cnpj]) ?>
-                        <?= $this->Form->postLink(
-                            __('Delete'),
-                            ['action' => 'delete', $fornecedor->cnpj],
-                            [
-                                'method' => 'delete',
-                                'confirm' => __('Are you sure you want to delete # {0}?', $fornecedor->cnpj),
-                            ]
-                        ) ?>
+                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $fornecedor->cnpj], ['method' => 'delete', 'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o CNPJ {0}?', $fornecedor->cnpj)]) ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>

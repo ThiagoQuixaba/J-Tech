@@ -5705,3 +5705,205 @@ Stack Trace:
 - [main]:
 
 Request URL: /.well-known/appspecific/com.chrome.devtools.json
+2025-07-27 18:47:55 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente',
+)
+Stack Trace:
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\Database\Schema\CachedCollection.php:107
+- CORE\src\ORM\Table.php:526
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:202
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1748
+- CORE\src\ORM\Table.php:1279
+- APP/Controller\ProdutosController.php:21
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Driver.php on line 191
+Stack Trace:
+- CORE\src\Database\Driver.php:191
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Driver.php:200
+- CORE\src\Database\Driver\Mysql.php:158
+- CORE\src\Database\Schema\SchemaDialect.php:60
+- CORE\src\Database\Driver\Mysql.php:204
+- CORE\src\Database\Schema\Collection.php:97
+- CORE\src\Database\Schema\Collection.php:87
+- CORE\src\Database\Schema\CachedCollection.php:107
+- CORE\src\ORM\Table.php:526
+- CORE\src\ORM\Query\CommonQueryTrait.php:48
+- CORE\src\ORM\Query\SelectQuery.php:202
+- CORE\src\ORM\Query\QueryFactory.php:34
+- CORE\src\ORM\Table.php:1748
+- CORE\src\ORM\Table.php:1279
+- APP/Controller\ProdutosController.php:21
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /produtos
+Referer URL: http://localhost:8765/
+2025-07-27 19:11:13 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\J-Tech\J-Tech\inferno\templates\Pages\index.php`
+- `D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\templates\Pages\index.php`
+ in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php on line 1376
+Exception Attributes: array (
+  'file' => 'Pages\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\J-Tech\\J-Tech\\inferno\\templates\\',
+    1 => 'D:\\J-Tech\\J-Tech\\inferno\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- CORE\src\View\View.php:782
+- CORE\src\Controller\Controller.php:712
+- APP/Controller\PagesController.php:65
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /pages/index
+Referer URL: http://localhost:8765/fornecedores/edit/teste
+2025-07-27 19:11:52 error: [Cake\Controller\Exception\MissingActionException] Action `FornecedoresController::display()` could not be found, or is not accessible. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 487
+Exception Attributes: array (
+  'controller' => 'FornecedoresController',
+  'action' => 'display',
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/display/index
+Referer URL: http://localhost:8765/fornecedores/edit/teste
+2025-07-27 19:13:02 error: [Cake\Controller\Exception\MissingActionException] Action `FornecedoresController::display()` could not be found, or is not accessible. in D:\J-Tech\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 487
+Exception Attributes: array (
+  'controller' => 'FornecedoresController',
+  'action' => 'display',
+)
+Stack Trace:
+- CORE\src\Controller\ControllerFactory.php:161
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/display/index
+Referer URL: http://localhost:8765/fornecedores/edit/teste
+2025-07-27 19:29:55 error: [Error] Call to undefined method Cake\View\Helper\HtmlHelper::button() in D:\J-Tech\J-Tech\inferno\templates\Fornecedores\edit.php on line 30
+Stack Trace:
+- CORE\src\View\View.php:1187
+- CORE\src\View\View.php:1144
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:712
+- CORE\src\Controller\Controller.php:516
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/edit/teste
+Referer URL: http://localhost:8765/fornecedores
