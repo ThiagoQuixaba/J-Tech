@@ -36,15 +36,7 @@
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $produto->lote]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $produto->lote]) ?>
-                        <?= $this->Form->postLink(
-                            __('Delete'),
-                            ['action' => 'delete', $produto->lote],
-                            [
-                                'method' => 'delete',
-                                'confirm' => __('Are you sure you want to delete # {0}?', $produto->lote),
-                                'class' => 'btn-delete'
-                            ]
-                        ) ?>
+                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $produto->lote], ['method' => 'delete', 'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o CNPJ {0}?', $produto->lote), 'onmouseover' => "this.style.color='#d33c43'", 'onmouseout' => "this.style.color='#606c76'"]) ?>
 
                     </td>
                 </tr>
@@ -52,7 +44,6 @@
             </tbody>
         </table>
     </div>
-        <!-- ✅ Botão Voltar para Home amarelo -->
     <div style="margin-top: 15px;">
         <?= $this->Html->link(
             '🏠 Voltar para Home',

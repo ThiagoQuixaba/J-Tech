@@ -38,7 +38,7 @@ $this->disableAutoLayout();
                 <!-- Menu organizado em lista de botões -->
                 <div class="d-grid gap-3">
                     <a href="/produtos" class="btn btn-primary text-start">
-                        📦 Gerenciar Produtos
+                        📦 Produtos
                     </a>
                     <a href="/categorias" class="btn btn-info text-start text-white">
                         🗂️ Categorias

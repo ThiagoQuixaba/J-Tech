@@ -19,17 +19,10 @@
                 <?php foreach ($categoria as $categorium): ?>
                 <tr>
                     <td><?= h($categorium->nome) ?></td>
-                    <td class="Ações">
-                        <?= $this->Html->link(__('Visualizar'), ['action' => 'view', $categorium->nome]) ?>
-                        <?= $this->Html->link(__('Editar'), ['action' => 'edit', $categorium->nome]) ?>
-                        <?= $this->Form->postLink(
-                            __('Deletar'),
-                            ['action' => 'delete', $categorium->nome],
-                            [
-                                'method' => 'delete',
-                                'confirm' => __('Are you sure you want to delete # {0}?', $categorium->nome),
-                            ]
-                        ) ?>
+                    <td class="actions">
+                        <?= $this->Html->link(__('View'), ['action' => 'view', $categorium->nome]) ?>
+                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $categorium->nome]) ?>
+                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $categorium->nome], ['method' => 'delete', 'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o CNPJ {0}?', $categorium->nome), 'onmouseover' => "this.style.color='#d33c43'", 'onmouseout' => "this.style.color='#606c76'"]) ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>
@@ -37,7 +30,6 @@
         </table>
     </div>
 
-    <!-- ✅ Botão Voltar para Home amarelo -->
     <div style="margin-top: 15px;">
         <?= $this->Html->link(
             '🏠 Voltar para Home',
