@@ -28,6 +28,16 @@
             </tbody>
         </table>
     </div>
+        <!-- ✅ Botão Voltar para Home amarelo -->
+    <div style="margin-top: 15px;">
+        <?= $this->Html->link(
+            '🏠 Voltar para Home',
+            ['controller' => 'Pages', 'action' => 'display', 'home'],
+            [
+                'style' => 'background: #ffeb3b; color: #000; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold;'
+            ]
+        ) ?>
+    </div>
     <div class="paginator">
         <ul class="pagination">
             <?= $this->Paginator->first('<< ' . __('first')) ?>
