@@ -42,8 +42,10 @@
                             [
                                 'method' => 'delete',
                                 'confirm' => __('Are you sure you want to delete # {0}?', $produto->lote),
+                                'class' => 'btn-delete'
                             ]
                         ) ?>
+
                     </td>
                 </tr>
                 <?php endforeach; ?>

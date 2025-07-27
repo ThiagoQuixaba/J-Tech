@@ -33,8 +33,8 @@
 }
 
 .button, button, input[type='button'], input[type='reset'], input[type='submit'] {
-    background-color: var(--color-cakephp-red);
-    border-color: var(--color-cakephp-red);
+    background-color: rgb(10, 187, 81);
+    border-color:rgb(10, 187, 81);
 }
 
 body {
@@ -122,10 +122,10 @@ th {
 }
 .top-nav-title a {
     font-size: 2.4rem;
-    color: var(--color-cakephp-red);
+    color:  black;
 }
 .top-nav-title span {
-    color: var(--color-cakephp-gray);
+    color: rgb(105, 104, 104);
 }
 .top-nav-links a {
     margin: 0 0.5rem;
@@ -146,32 +146,7 @@ th {
 .related {
     margin-top: 2rem;
 }
-/* Mensagens - prototipo */
 .message {
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
-    color: #444;
-    font-weight: bold;
-    padding: 10px 0;
-    margin-bottom: 1rem;
-    cursor: default;
-}
-
-.message.success {
-    color: black; 
-}
-
-.message.error {
-    color: black; /* vermelho */
-}
-
-.message.warning {
-    color: black; /* amarelo */
-}
-
-/* Flash messages */
-/*.message {
     padding: .5rem 1rem;
     background: var(--color-message-info-bg);
     color: var(--color-message-info-text);
@@ -199,7 +174,9 @@ th {
     background: var(--color-message-error-bg);
     color: var(--color-message-error-text);
     border-color: var(--color-message-error-border);
-}*/
+}
+.actions .btn-delete {
+    color: var(--color-message-error-text);}
 
 /* Forms */
 .input {

@@ -47,11 +47,11 @@ class CategoriasController extends AppController
         if ($this->request->is('post')) {
             $categorium = $this->Categorias->patchEntity($categorium, $this->request->getData());
             if ($this->Categorias->save($categorium)) {
-                $this->Flash->success(__('The categorium has been saved.'));
+                $this->Flash->success(__('A categoria foi salva.'));
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The categorium could not be saved. Please, try again.'));
+            $this->Flash->error(__('A categoria não pôde ser salvo. Por favor, tente novamente.'));
         }
         $this->set(compact('categorium'));
     }
@@ -69,11 +69,11 @@ class CategoriasController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $categorium = $this->Categorias->patchEntity($categorium, $this->request->getData());
             if ($this->Categorias->save($categorium)) {
-                $this->Flash->success(__('The categorium has been saved.'));
+                $this->Flash->success(__('A categoria foi salva.'));
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The categorium could not be saved. Please, try again.'));
+            $this->Flash->error(__('A categoria não pôde ser salvo. Por favor, tente novamente.'));
         }
         $this->set(compact('categorium'));
     }
@@ -90,9 +90,9 @@ class CategoriasController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $categorium = $this->Categorias->get($id);
         if ($this->Categorias->delete($categorium)) {
-            $this->Flash->success(__('The categorium has been deleted.'));
+            $this->Flash->success(__('A categoria foi excluída.'));
         } else {
-            $this->Flash->error(__('The categorium could not be deleted. Please, try again.'));
+            $this->Flash->error(__('A categoria não pôde ser excluída. Por favor, tente novamente.'));
         }
 
         return $this->redirect(['action' => 'index']);

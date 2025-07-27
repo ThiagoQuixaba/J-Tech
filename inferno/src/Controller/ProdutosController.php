@@ -105,11 +105,11 @@ class ProdutosController extends AppController
             $produto = $this->Produtos->patchEntity($produto, $data);
 
             if ($this->Produtos->save($produto)) {
-                $this->Flash->success(__('The produto has been saved.'));
+                $this->Flash->success(__('O produto foi salvo.'));
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The produto could not be saved. Please, try again.'));
+            $this->Flash->error(__('O produto não pôde ser salvo. Por favor, tente novamente.'));
         }
         
         $categorias = $this->Produtos->Categorias->find('list', ['keyField' => 'nome', 'valueField' => 'nome'])->toArray();
