@@ -5,7 +5,6 @@
  */
 ?>
 <div class="fluxo index content">
-    <?= $this->Html->link(__('Novo Fluxo'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Fluxo') ?></h3>
     <div class="table-responsive">
         <table>
@@ -15,7 +14,6 @@
                     <th><?= $this->Paginator->sort('lote') ?></th>
                     <th><?= $this->Paginator->sort('tipo') ?></th>
                     <th><?= $this->Paginator->sort('data') ?></th>
-                    <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
             <tbody>
@@ -25,18 +23,6 @@
                     <td><?= h($fluxo->lote) ?></td>
                     <td><?= h($fluxo->tipo) ?></td>
                     <td><?= h($fluxo->data) ?></td>
-                    <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $fluxo->id]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $fluxo->id]) ?>
-                        <?= $this->Form->postLink(
-                            __('Delete'),
-                            ['action' => 'delete', $fluxo->id],
-                            [
-                                'method' => 'delete',
-                                'confirm' => __('Are you sure you want to delete # {0}?', $fluxo->id),
-                            ]
-                        ) ?>
-                    </td>
                 </tr>
                 <?php endforeach; ?>
             </tbody>
