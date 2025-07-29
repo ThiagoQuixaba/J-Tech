@@ -19,12 +19,12 @@
             <h3><?= h($categorium->nome) ?></h3>
             <table>
                 <tr>
-                    <th><?= __('Nome') ?></th>
+                    <th><?= __('Nome:') ?></th>
                     <td><?= h($categorium->nome) ?></td>
                 </tr>
             </table>
             <div class="text">
-                <strong><?= __('Descricao') ?></strong>
+                <strong><?= __('Descricão') ?></strong>
                 <blockquote>
                     <?= $this->Text->autoParagraph(h($categorium->descricao)); ?>
                 </blockquote>

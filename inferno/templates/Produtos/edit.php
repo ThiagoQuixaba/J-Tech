@@ -25,7 +25,7 @@
                 <?= $this->Form->control('categoria', ['options' => $categorias, 'empty' => 'Selecione uma categoria']) ?>
                 <?= $this->Form->control('fornecedor', ['options' => $fornecedores, 'empty' => 'Selecione um fornecedor']) ?>
                 <?= $this->Form->control('nome') ?>
-                <?= $this->Form->control('descricao') ?>
+                <?= $this->Form->control('descricao', ['label' => 'Descrição']) ?>
                 <?= $this->Form->control('quantidade') ?>
                 <?= $this->Form->control('valor') ?>
                 <?= $this->Form->control('fabricacao', ['type' => 'date']) ?>

@@ -5932,3 +5932,183 @@ Stack Trace:
 
 Request URL: /fornecedores/edit
 Referer URL: http://localhost:8765/fornecedores/add
+2025-07-29 11:35:45 error: [InvalidArgumentException] Expression `Categorias.nome` is missing operator (IS, IS NOT) with `null` value. in D:\Nova pasta\Nova pasta (2)\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 747
+Stack Trace:
+- CORE\src\Database\Expression\QueryExpression.php:663
+- CORE\src\Database\Expression\QueryExpression.php:131
+- CORE\src\Database\Query.php:1759
+- CORE\src\Database\Query.php:903
+- CORE\src\ORM\Table.php:1847
+- CORE\src\ORM\Table.php:2022
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\CategoriasController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias/add
+2025-07-29 11:42:22 error: [InvalidArgumentException] Expression `Categorias.nome` is missing operator (IS, IS NOT) with `null` value. in D:\Nova pasta\Nova pasta (2)\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 747
+Stack Trace:
+- CORE\src\Database\Expression\QueryExpression.php:663
+- CORE\src\Database\Expression\QueryExpression.php:131
+- CORE\src\Database\Query.php:1759
+- CORE\src\Database\Query.php:903
+- CORE\src\ORM\Table.php:1847
+- CORE\src\ORM\Table.php:2022
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\CategoriasController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias/add
+2025-07-29 11:43:40 error: [InvalidArgumentException] Expression `Categorias.nome` is missing operator (IS, IS NOT) with `null` value. in D:\Nova pasta\Nova pasta (2)\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 747
+Stack Trace:
+- CORE\src\Database\Expression\QueryExpression.php:663
+- CORE\src\Database\Expression\QueryExpression.php:131
+- CORE\src\Database\Query.php:1759
+- CORE\src\Database\Query.php:903
+- CORE\src\ORM\Table.php:1847
+- CORE\src\ORM\Table.php:2022
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\CategoriasController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias/add
+2025-07-29 11:44:13 error: [InvalidArgumentException] Expression `Categorias.nome` is missing operator (IS, IS NOT) with `null` value. in D:\Nova pasta\Nova pasta (2)\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 747
+Stack Trace:
+- CORE\src\Database\Expression\QueryExpression.php:663
+- CORE\src\Database\Expression\QueryExpression.php:131
+- CORE\src\Database\Query.php:1759
+- CORE\src\Database\Query.php:903
+- CORE\src\ORM\Table.php:1847
+- CORE\src\ORM\Table.php:2022
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\CategoriasController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias/add
+2025-07-29 11:44:21 error: [InvalidArgumentException] Expression `Categorias.nome` is missing operator (IS, IS NOT) with `null` value. in D:\Nova pasta\Nova pasta (2)\J-Tech\inferno\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 747
+Stack Trace:
+- CORE\src\Database\Expression\QueryExpression.php:663
+- CORE\src\Database\Expression\QueryExpression.php:131
+- CORE\src\Database\Query.php:1759
+- CORE\src\Database\Query.php:903
+- CORE\src\ORM\Table.php:1847
+- CORE\src\ORM\Table.php:2022
+- CORE\src\ORM\Table.php:1962
+- CORE\src\ORM\Table.php:1587
+- CORE\src\Database\Connection.php:649
+- CORE\src\ORM\Table.php:1587
+- CORE\src\ORM\Table.php:1961
+- APP/Controller\CategoriasController.php:49
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:162
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /categorias/add
+Referer URL: http://localhost:8765/categorias/add

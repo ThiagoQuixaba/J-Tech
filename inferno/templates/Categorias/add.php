@@ -19,10 +19,11 @@
                 <legend><?= __('Add Categoria') ?></legend>
                 <?php
                     echo $this->Form->control('nome', ['label' => 'Nome da Categoria', 'type' => 'text', 'required' => true]);
-                    echo $this->Form->control('descricao');
+                    echo $this->Form->control('descricao', ['label' => 'Descrição']);
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Html->link('cancelar', ['controller' => 'Categorias', 'action' => 'index'], ['class' => 'button', 'style' => 'background-color: #d33c43; border-color: #d33c43', 'onmouseover' => "this.style.backgroundColor='#606c76', this.style.borderColor='#606c76'", 'onmouseout' => "this.style.backgroundColor='#d33c43', this.style.borderColor='#d33c43'"]) ?>
+            <?= $this->Form->button(__('salvar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>

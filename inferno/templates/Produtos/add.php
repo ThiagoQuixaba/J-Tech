@@ -23,14 +23,14 @@
                 <?= $this->Form->control('categoria', ['options' => $categorias, 'empty' => 'Selecione uma categoria']) ?>
                 <?= $this->Form->control('fornecedor', ['options' => $fornecedores, 'empty' => 'Selecione um fornecedor']) ?>
                 <?= $this->Form->control('nome') ?>
-                <?= $this->Form->control('descricao') ?>
+                <?= $this->Form->control('descricao', ['label' => 'Descrição']) ?>
                 <?= $this->Form->control('quantidade') ?>
                 <?= $this->Form->control('valor') ?>
                 <?= $this->Form->control('fabricacao', ['type' => 'date']) ?>
                 <?= $this->Form->control('validade', ['type' => 'date']) ?>
             </fieldset>
             <?= $this->Html->link('cancelar', ['controller' => 'Produtos', 'action' => 'index'], ['class' => 'button', 'style' => 'background-color: #d33c43; border-color: #d33c43', 'onmouseover' => "this.style.backgroundColor='#606c76', this.style.borderColor='#606c76'", 'onmouseout' => "this.style.backgroundColor='#d33c43', this.style.borderColor='#d33c43'"]) ?>
-            <?= $this->Form->button(__('Salvar')) ?>
+            <?= $this->Form->button(__('salvar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>
