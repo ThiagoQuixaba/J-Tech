@@ -18,9 +18,9 @@ class FornecedoresController extends AppController
     public function index()
     {
         $query = $this->Fornecedores->find();
-        $fornecedor = $this->paginate($query);
+        $fornecedores = $this->paginate($query);
+        $this->set(compact('fornecedores'));
 
-        $this->set(compact('fornecedor'));
     }
 
     /**

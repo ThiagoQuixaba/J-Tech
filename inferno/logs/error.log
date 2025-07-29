@@ -7441,3 +7441,440 @@ Stack Trace:
 
 Request URL: /fornecedores/view/12.345.678%2F0001-90
 Referer URL: http://localhost:8765/fornecedores
+2025-07-29 22:56:32 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `fornecedor`. in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php on line 600
+Stack Trace:
+- CORE\src\ORM\Table.php:1574
+- APP/Controller\FornecedoresController.php:35
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:79
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/view/12.345.678%2F0001-90
+Referer URL: http://localhost:8765/fornecedores
+2025-07-29 23:06:56 warning: Undefined variable $fornecedor in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/fornecedores
+2025-07-29 23:06:56 warning: foreach() argument must be of type array|object, null given in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/fornecedores
+2025-07-29 23:07:02 warning: Undefined variable $fornecedor in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:07:02 warning: foreach() argument must be of type array|object, null given in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:07:12 warning: Undefined variable $fornecedor in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:07:12 warning: foreach() argument must be of type array|object, null given in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:09:29 warning: Undefined variable $fornecedor in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:09:29 warning: foreach() argument must be of type array|object, null given in C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php on line 21
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\Julian_e_Cresio\J-Tech\inferno\templates\Fornecedores\index.php, line 21
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1187
+Cake\View\View->_evaluate() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 1144
+Cake\View\View->_render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 712
+Cake\Controller\Controller->render() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 516
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:10:17 warning: compact(): Undefined variable $fornecedor in C:\Julian_e_Cresio\J-Tech\inferno\src\Controller\FornecedoresController.php on line 20
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Julian_e_Cresio\J-Tech\inferno\src\Controller\FornecedoresController.php C:\Julian_e_Cresio\J-Tech\inferno\src\Controller\FornecedoresController.php, line 20
+App\Controller\FornecedoresController->index() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:10:17 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php on line 150
+Stack Trace:
+- CORE\src\View\Helper\PaginatorHelper.php:163
+- CORE\src\View\Helper\PaginatorHelper.php:174
+- CORE\src\View\Helper\PaginatorHelper.php:409
+- ROOT\templates\Fornecedores\index.php:14
+- CORE\src\View\View.php:1187
+- CORE\src\View\View.php:1144
+- CORE\src\View\View.php:785
+- CORE\src\Controller\Controller.php:712
+- CORE\src\Controller\Controller.php:516
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:70
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:10:17 warning: Unable to emit headers. Headers sent in file=C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37 in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 65
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:10:17 warning: Cannot modify header information - headers already sent by (output started at C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 159
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:10:17 warning: Cannot modify header information - headers already sent by (output started at C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:10:18 warning: Cannot modify header information - headers already sent by (output started at C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37) in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php on line 192
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 148
+Cake\Http\Server->emit() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/
+2025-07-29 23:18:01 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `fornecedor`. in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php on line 600
+Stack Trace:
+- CORE\src\ORM\Table.php:1574
+- APP/Controller\FornecedoresController.php:35
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:79
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/view/12.345.678%2F0001-90
+Referer URL: http://localhost:8765/fornecedores
+2025-07-29 23:23:18 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `fornecedor`. in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php on line 600
+Stack Trace:
+- CORE\src\ORM\Table.php:1574
+- APP/Controller\FornecedoresController.php:35
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:79
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/view/12.345.678%2F0001-90
+Referer URL: http://localhost:8765/fornecedores
+2025-07-29 23:28:35 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `fornecedor`. in C:\Julian_e_Cresio\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php on line 600
+Stack Trace:
+- CORE\src\ORM\Table.php:1574
+- APP/Controller\FornecedoresController.php:35
+- CORE\src\Controller\Controller.php:505
+- CORE\src\Controller\ControllerFactory.php:166
+- CORE\src\Controller\ControllerFactory.php:141
+- CORE\src\Http\BaseApplication.php:362
+- CORE\src\Http\Runner.php:86
+- CORE\src\Http\Middleware\BodyParserMiddleware.php:157
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\RoutingMiddleware.php:117
+- CORE\src\Http\Runner.php:82
+- CORE\src\Routing\Middleware\AssetMiddleware.php:79
+- CORE\src\Http\Runner.php:82
+- CORE\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- CORE\src\Http\Runner.php:82
+- ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- CORE\src\Http\Runner.php:82
+- CORE\src\Http\Runner.php:60
+- CORE\src\Http\Server.php:104
+- ROOT\webroot\index.php:37
+- [main]:
+
+Request URL: /fornecedores/view/12.345.678%2F0001-90
+Referer URL: http://localhost:8765/fornecedores

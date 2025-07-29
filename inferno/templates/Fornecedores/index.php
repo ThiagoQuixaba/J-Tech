@@ -1,7 +1,8 @@
 <?php
 /**
+/**
  * @var \App\View\AppView $this
- * @var iterable<\App\Model\Entity\Fornecedor> $fornecedor
+ * @var iterable<\App\Model\Entity\Fornecedor> $fornecedores
  */
 ?>
 <div class="fornecedor index content">
@@ -18,7 +19,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($fornecedor as $fornecedor): ?>
+                <?php foreach ($fornecedores as $fornecedor): ?>
                 <tr>
                     <td><?= h($fornecedor->cnpj) ?></td>
                     <td><?= h($fornecedor->nome) ?></td>
