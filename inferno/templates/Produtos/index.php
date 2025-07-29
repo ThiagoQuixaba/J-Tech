@@ -34,11 +34,30 @@
                     <td><?= h($produto->fabricacao) ?></td>
                     <td><?= h($produto->validade) ?></td>
                     <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $produto->lote]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $produto->lote]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $produto->lote], ['method' => 'delete', 'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o CNPJ {0}?', $produto->lote), 'onmouseover' => "this.style.color='#d33c43'", 'onmouseout' => "this.style.color='#606c76'"]) ?>
-
+                        <?= $this->Html->link(
+                            '<i class="fa fa-eye" aria-hidden="true"></i>', 
+                            ['action' => 'view', $produto->lote], 
+                            ['escape' => false, 'title' => 'Visualizar']
+                        ) ?>
+                        <?= $this->Html->link(
+                            '<i class="fa fa-pencil-alt" aria-hidden="true"></i>', 
+                            ['action' => 'edit', $produto->lote], 
+                            ['escape' => false, 'title' => 'Editar']
+                        ) ?>
+                        <?= $this->Form->postLink(
+                            '<i class="fa fa-trash" aria-hidden="true"></i>', 
+                            ['action' => 'delete', $produto->lote], 
+                            [
+                                'method' => 'delete', 
+                                'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o lote {0}?', $produto->lote), 
+                                'escape' => false,
+                                'onmouseover' => "this.style.color='#d33c43'", 
+                                'onmouseout' => "this.style.color='#606c76'",
+                                'title' => 'Excluir'
+                            ]
+                        ) ?>
                     </td>
+
                 </tr>
                 <?php endforeach; ?>
             </tbody>

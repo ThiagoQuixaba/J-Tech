@@ -29,7 +29,7 @@
                     <?= $this->Text->autoParagraph(h($categorium->descricao)); ?>
                 </blockquote>
             </div>
-            <?= $this->Html->link('voltar', ['controller' => 'Fornecedores', 'action' => 'index'], ['class' => 'button', 'style' => 'background-color: #d33c43; border-color: #d33c43', 'onmouseover' => "this.style.backgroundColor='#606c76', this.style.borderColor='#606c76'", 'onmouseout' => "this.style.backgroundColor='#d33c43', this.style.borderColor='#d33c43'"]) ?>
+            <?= $this->Html->link('voltar', ['controller' => 'Categorias', 'action' => 'index'], ['class' => 'button', 'style' => 'background-color: #d33c43; border-color: #d33c43', 'onmouseover' => "this.style.backgroundColor='#606c76', this.style.borderColor='#606c76'", 'onmouseout' => "this.style.backgroundColor='#d33c43', this.style.borderColor='#d33c43'"]) ?>
         </div>
     </div>
 </div>
