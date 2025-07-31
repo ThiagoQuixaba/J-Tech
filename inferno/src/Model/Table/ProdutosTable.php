@@ -116,10 +116,46 @@ class ProdutosTable extends Table
     public function validationAdd(Validator $validator): Validator
     {
         $validator
+            ->scalar('categoria')
+            ->maxLength('categoria', 255)
+            ->allowEmptyString('categoria');
+
+        $validator
+            ->scalar('fornecedor')
+            ->maxLength('fornecedor', 255)
+            ->allowEmptyString('fornecedor');
+
+        $validator
+            ->scalar('nome')
+            ->maxLength('nome', 255)
+            ->requirePresence('nome', 'create')
+            ->notEmptyString('nome');
+
+        $validator
+            ->scalar('descricao')
+            ->allowEmptyString('descricao');
+
+        $validator
             ->integer('quantidade')
             ->greaterThanOrEqual('quantidade', 1, 'A quantidade deve ser 1 ou maior.')
             ->requirePresence('quantidade', 'create')
-            ->notEmptyString('quantidade');
+            ->notEmptyString('quantidade', 'O valor é obrigatório.');
+        
+            $validator
+            ->integer('valor')
+            ->greaterThanOrEqual('valor', 0, 'A valor deve ser 0 ou maior.')
+            ->requirePresence('valor', 'create')
+            ->notEmptyString('valor', 'O valor é obrigatório.');
+
+            $validator
+            ->date('fabricacao')
+            ->requirePresence('fabricacao', 'create')
+            ->notEmptyDate('fabricacao');
+
+            $validator
+                ->date('validade')
+                ->requirePresence('validade', 'create')
+                ->notEmptyDate('validade');
 
         return $validator;
     }

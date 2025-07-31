@@ -3991,3 +3991,618 @@ Cake\Http\Server->run() C:\Julian_e_Cresio\J-Tech\inferno\webroot\index.php, lin
 
 Request URL: /produtos/edit/1003
 Referer URL: http://localhost:8765/produtos
+2025-07-29 23:41:52 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-29 23:42:15 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/0
+Referer URL: http://localhost:8765/produtos
+2025-07-30 11:35:16 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\FornecedoresController.php` on line 20 in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\FornecedoresController.php, line 20
+App\Controller\FornecedoresController->index() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores
+Referer URL: http://localhost:8765/fornecedores/add
+2025-07-30 11:36:08 notice: Undefined property `FornecedoresController::$Fornecedor` in `C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\FornecedoresController.php` on line 35 in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php on line 313
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 313
+Cake\Controller\Controller->__get() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\FornecedoresController.php, line 35
+App\Controller\FornecedoresController->view() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 79
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /fornecedores/view/06.553.796%2F0001-96
+Referer URL: http://localhost:8765/fornecedores
+2025-07-30 12:06:41 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:24:07 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:25:37 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:30:10 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:34:20 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/2
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:36:28 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/1
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:36:46 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/1
+Referer URL: http://localhost:8765/produtos
+2025-07-30 12:37:05 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/1
+Referer URL: http://localhost:8765/produtos
+2025-07-31 16:33:58 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-31 16:36:17 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
+2025-07-31 16:39:54 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/3
+Referer URL: http://localhost:8765/produtos
+2025-07-31 16:40:46 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 115
+App\Controller\ProdutosController->edit() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/edit/3
+Referer URL: http://localhost:8765/produtos
+2025-07-31 16:43:46 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-31 16:44:13 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos
+2025-07-31 16:45:04 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2713
+Cake\ORM\Table->invokeFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Table.php, line 1279
+Cake\ORM\Table->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\src\Controller\ProdutosController.php, line 68
+App\Controller\ProdutosController->add() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 117
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 70
+Cake\Routing\Middleware\AssetMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\Nova pasta\Nova pasta (3)\J-Tech\inferno\webroot\index.php, line 37
+[main]
+
+Request URL: /produtos/add
+Referer URL: http://localhost:8765/produtos/add
