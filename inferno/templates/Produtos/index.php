@@ -49,7 +49,7 @@
                             ['action' => 'delete', $produto->lote], 
                             [
                                 'method' => 'delete', 
-                                'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o lote {0}?', $produto->lote), 
+                                'confirm' => __('Você realmente deseja excluir o produto registrado com o lote {0}?', $produto->lote), 
                                 'escape' => false,
                                 'onmouseover' => "this.style.color='#d33c43'", 
                                 'onmouseout' => "this.style.color='#606c76'",

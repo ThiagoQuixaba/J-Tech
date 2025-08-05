@@ -35,7 +35,7 @@
                             ['action' => 'delete', $categorium->nome], 
                             [
                                 'method' => 'delete', 
-                                'confirm' => __('Você realmente deseja excluir o fornecedor registrado com o CNPJ {0}?', $categorium->nome), 
+                                'confirm' => __('Você realmente deseja excluir a categoria {0}?', $categorium->nome), 
                                 'escape' => false,
                                 'onmouseover' => "this.style.color='#d33c43'", 
                                 'onmouseout' => "this.style.color='#606c76'",
